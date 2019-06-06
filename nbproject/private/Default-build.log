@@ -1,0 +1,32 @@
+Running...
+Removing temporary files...
+     Clean Done!
+Compiling kernel...
+     Compile Done!
+Building...
+ld86: warning: _gets redefined in file /usr/lib/bcc/libc.a(gets.o); using definition in mtxlib(bio.o)
+ld86: warning: _printf redefined in file /usr/lib/bcc/libc.a(printf.o); using definition in mtxlib(bio.o)
+     Build Done!
+Creating boot image...
+ERROR: ld.so: object 'libBuildTrace.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object 'libBuildTrace.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object 'libBuildTrace.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+     Image Creation Done!
+Booting Adassa...
+WARNING: Image format was not specified for 'floppy.img' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+
+(qemu-system-i386:7006): Gtk-WARNING **: Allocating size to GtkScrollbar 0x84817240 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+
+(qemu-system-i386:7006): Gtk-WARNING **: gtk_widget_size_allocate(): attempt to allocate widget with width -1220571528 and height 400
+
+(qemu-system-i386:7006): Gtk-WARNING **: Allocating size to GtkScrollbar 0x84817398 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+
+(qemu-system-i386:7006): Gtk-WARNING **: gtk_widget_size_allocate(): attempt to allocate widget with width -2111208736 and height 400
+
+(qemu-system-i386:7006): Gtk-WARNING **: Allocating size to GtkScrollbar 0x848174f0 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+
+(qemu-system-i386:7006): Gtk-WARNING **: gtk_widget_size_allocate(): attempt to allocate widget with width -2111208496 and height 400
+     Boot Done!
+Run Done!
