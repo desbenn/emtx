@@ -30,7 +30,7 @@ int scheduler() {
 }
 
 main() {
-    printf("In main()\n");
+    printf("\nIn main()\n");
     running = &proc;
     printf("Call tswitch()\n");
     tswitch();

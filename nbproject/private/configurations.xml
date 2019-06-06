@@ -43,10 +43,10 @@
       <runprofile version="9">
         <runcommandpicklist>
           <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
-          <runcommandpicklistitem>qemu-system-i386 -fda floppy.img -no-fd-bootchk</runcommandpicklistitem>
           <runcommandpicklistitem>qemu-system-i386 -fda ../floppy.img -no-fd-bootchk</runcommandpicklistitem>
+          <runcommandpicklistitem>qemu-system-i386 -fda floppy.img -no-fd-bootchk</runcommandpicklistitem>
         </runcommandpicklist>
-        <runcommand>qemu-system-i386 -fda ../floppy.img -no-fd-bootchk</runcommand>
+        <runcommand>qemu-system-i386 -fda floppy.img -no-fd-bootchk</runcommand>
         <rundir>.</rundir>
         <buildfirst>false</buildfirst>
         <terminal-type>0</terminal-type>

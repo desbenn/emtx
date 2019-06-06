@@ -1,5 +1,5 @@
 .SILENT:
-VFD		  = ../floppy.img
+VFD		  = floppy.img
 REDIRECT          = > /dev/null 2>&1
 
 build:
@@ -28,9 +28,9 @@ link:
 
 image:
 	@echo "Creating boot image..."
-	@sudo mount -o loop -t ext2 $(VFD) /mnt $(REDIRECT)
-	@sudo cp mtx /mnt/boot $(REDIRECT)
-	@sudo umount /mnt $(REDIRECT)
+	@sudo mount -o loop -t ext2 $(VFD) /mnt 
+	@sudo cp mtx /mnt/boot 
+	@sudo umount /mnt 
 	@echo "     Image Creation Done!"
 
 boot:
